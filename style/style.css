@@ -184,10 +184,12 @@ body {
 }
 
 .team .card a .bi-twitter{
-    height: 90px;
-    width: 90px;
+    height: 70px;
+    width: 75px;
     font-size: 20px;
     padding: 13px 15px 13px 15px;
+    margin-left: -99px;
+    margin-right: -3px;
     text-align: center;
     border-radius: 100%;
     color: #fff;
@@ -195,12 +197,12 @@ body {
     box-shadow: 3px 4px 7px 1px rgba(0, 0, 0, 0.351);
 }
 .team .card a .bi-instagram {
-    height: 90px;
-    width: 90px;
+    height: 70px;
+    width: 75px;
     font-size: 20px;
     padding: 13px 15px 13px 15px;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: -9px;
+    margin-right: -9px;
     text-align: center;
     border-radius: 100%;
     color: #fff;
@@ -209,10 +211,12 @@ body {
 }
 
 .team .card a .bi-github{
-    height: 90px;
-    width: 90px;
+    height: 70px;
+    width: 75px;
     font-size: 20px;
     padding: 13px 15px 13px 15px;
+    margin-left: -4px;
+    margin-right: -99px;
     text-align: center;
     border-radius: 100%;
     color: #fff;
@@ -356,6 +360,11 @@ html {
 	.img-area img {
 		width: 100%;
 	}
+
+    .team .card a .bi-instagram {
+        margin-left: 1px;
+        margin-right: 1px;
+    }
 }
 
 @media only screen and (max-width: 767px) {
