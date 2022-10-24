@@ -1,0 +1,142 @@
+/* ===MEDIA QUERY=== */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.carousel-caption {
+		bottom: 370px;
+	}
+	.carousel-caption p {
+		width: 100%;
+	}
+	.card {
+		margin-bottom: 30px;
+	}
+	.img-area img {
+		width: 100%;
+	}
+
+    .team .card a .bi-instagram {
+        margin-left: 1px;
+        margin-right: 1px;
+    }
+    .content-header {
+        margin-top: 65vh;
+    }
+    .content-header h2 {
+        font-size: 20px;
+    }
+    .content-header ul {
+        margin-top: 70px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .content-header ul li {
+        display: inline-block;
+        margin: 0 14px;
+    }
+
+}
+@media only screen and (min-width: 800px) and (max-width: 1280px) {
+	.carousel-caption {
+		bottom: 370px;
+	}
+	.carousel-caption p {
+		width: 100%;
+	}
+	.card {
+		margin-bottom: 30px;
+	}
+	.img-area img {
+		width: 100%;
+	}
+
+    .team .card a .bi-instagram {
+        margin-left: 1px;
+        margin-right: 1px;
+    }
+    .content-header {
+        margin-top: 65vh;
+    }
+    .content-header h2 {
+        font-size: 50px;
+    }
+    .content-header p {
+        font-size: 25px;
+    }
+    .content-header ul {
+        margin-top: 70px;
+        margin-left: 5%;
+        margin-right: 10%;
+    }
+    .content-header ul li {
+        display: inline-block;
+        margin: 0 14px;
+    }
+    .content-header .WA {
+        font-size: 35px;
+        padding: 15px 17px 15px 17px;
+        color: white;
+        background-color: #3b41818c;
+        border-radius: 570px;
+        transition: all .5s;
+    }
+    .content-header .TW {
+        font-size: 35px;
+        padding: 15px 17px 15px 17px;
+        color: white;
+        background-color: #3b41818c;
+        border-radius: 570px;
+        transition: all .5s;
+    }
+    .content-header .IG {
+        font-size: 35px;
+        padding: 15px 17px 15px 17px;
+        color: white;
+        background-color: #3b41818c;
+        border-radius: 570px;
+        transition: all .5s;
+    }
+
+}
+
+@media (max-width: 576px) {
+	.navbar-nav {
+		text-align: center;
+	}
+	.carousel-caption {
+		bottom: 125px;
+	}
+	.carousel-caption h5 {
+		font-size: 17px;
+	}
+	.carousel-caption a {
+		padding: 10px 15px;
+		font-size: 15px;
+	}
+	.carousel-caption p {
+		width: 100%;
+		line-height: 1.6;
+		font-size: 12px;
+	}
+	.about-text {
+		padding-top: 50px;
+	}
+	.card {
+		margin-bottom: 30px;
+	}
+    .content-header {
+        margin-top: 60vh;
+    }
+    .content-header h2 {
+        font-size: 20px;
+    }
+    .content-header ul {
+        margin-top: 65px;
+        margin-right: 15%;
+    }
+    .content-header ul li {
+        display: inline-block;
+        margin: 0px 14px;
+    }
+}
+
+/* ===MEDIA QUERY=== */
