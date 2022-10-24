@@ -21,7 +21,7 @@ header {
     position: relative;
     display: flex;
     flex-direction: column;
-    background: url("/assets/bg4_lowbrig.png");
+    background: url("assets/bg4_lowbrig.png");
     background-position: center;
     background-size: cover;
 }
