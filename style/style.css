@@ -13,6 +13,94 @@ body {
 
 /* ===END LOCAL=== */
 
+/* ===Header=== */
+
+header {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background: url("/assets/bg4_lowbrig.png");
+    background-position: center;
+    background-size: cover;
+}
+
+header::before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.content-header {
+    margin-top: 70vh;
+    padding-left: 50px;
+    color: #ffffff;
+}
+.content-header h2 {
+    font-size: 40px;
+    font-family: rockwell;
+}
+.content-header ul {
+        margin-top: 10px;
+        margin-right: 70%;
+}
+.content-header ul li {
+    display: inline-block;
+    margin: 0 14px;
+}
+.content-header .WA {
+    font-size: 15px;
+    padding: 11px 13px 11px 13px;
+    color: white;
+    background-color: #3b41818c;
+    border-radius: 570px;
+    transition: all .5s;
+}
+
+.content-header .WA:hover {
+    background-color: #25D366;
+    color: white;
+    padding: 11px 13px 11px 13px;
+    border-radius: 50%;
+}
+.content-header .TW {
+    font-size: 15px;
+    padding: 11px 13px 11px 13px;
+    color: white;
+    background-color: #3b41818c;
+    border-radius: 570px;
+    transition: all .5s;
+}
+
+.content-header .TW:hover {
+    background-color: #007ab5;
+    color: white;
+    padding: 11px 13px 11px 13px;
+    border-radius: 50%;
+}
+.content-header .IG {
+    font-size: 15px;
+    padding: 11px 13px 11px 13px;
+    color: white;
+    background-color: #3b41818c;
+    border-radius: 570px;
+    transition: all .5s;
+}
+
+.content-header .IG:hover {
+    background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    color: white;
+    padding: 11px 13px 11px 13px;
+    border-radius: 50%;
+}
+/* ===Header=== */
+
+
 /* ===Full Source=== */
 
 /* ===Start Carousel=== */
@@ -365,9 +453,24 @@ html {
         margin-left: 1px;
         margin-right: 1px;
     }
+    .content-header {
+        margin-top: 65vh;
+    }
+    .content-header h2 {
+        font-size: 20px;
+    }
+    .content-header ul {
+        margin-top: 10px;
+        margin-right: 70%;
+    }
+    .content-header ul li {
+        display: inline-block;
+        margin: 0 14px;
+    }
+
 }
 
-@media only screen and (max-width: 767px) {
+@media (max-width: 576px) {
 	.navbar-nav {
 		text-align: center;
 	}
@@ -392,6 +495,20 @@ html {
 	.card {
 		margin-bottom: 30px;
 	}
+    .content-header {
+        margin-top: 60vh;
+    }
+    .content-header h2 {
+        font-size: 20px;
+    }
+    .content-header ul {
+        margin-top: 65px;
+        margin-right: 15%;
+    }
+    .content-header ul li {
+        display: inline-block;
+        margin: 0px 14px;
+    }
 }
 
 /* ===MEDIA QUERY=== */
